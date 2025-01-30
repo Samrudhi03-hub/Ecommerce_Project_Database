@@ -20,29 +20,29 @@ Payments – Manages transactions and payment details.
 
 🔧 How to Use
 <br>
-1. Install MySQL Server (if not installed).
+✅ Install MySQL Server (if not installed).
    <br>
-2. Open MySQL Workbench (or any SQL tool).
-3. Create a new database:<br>
+✅ Open MySQL Workbench (or any SQL tool).
+✅ Create a new database:
   CREATE DATABASE ecommerce; <br>
-4️. Select the new database:<br>
-  USE ecommerce;
+✅ Select the new database:
+     USE ecommerce;
 
-5. Create Tables:
+✅ Create Tables:
   create tables for Users, Products, Orders, Payments, etc.(Refer to the provided code)
 
-6. Insert Sample Data
+✅ Insert Sample Data
   Now, insert some records into the tables(Refer code)
 
-7. Fetch and Test Data
+✅ Fetch and Test Data
   Run these queries to test your database:
 <br><br>
 
-  ✅ View all orders with user details: (Refer code)
+✅ View all orders with user details: (Refer code)
   <br>
-  ✅ Get total sales by product: (Refer code)
+✅ Get total sales by product: (Refer code)
   <br>
-  ✅ Check pending payments: (Refer code)
+✅ Check pending payments: (Refer code)
   <br>
 
-8. Save and Submit with .sql extension
+✅ Save and Submit with .sql extension
