@@ -3,38 +3,43 @@
 <br><br>
 📌 About
 <br>
-This SQL file contains the database schema and sample data for an e-commerce project. It includes tables for Users, Products, Orders and Payments, making it suitable for any online shopping system.
+**This project is created as an example to demonstrate my knowledge of SQL (MySQL). It showcases how to design and structure a relational database for an e-commerce system.**
+<br>
 
-📂 Database Structure
+🔹 **Note:** This is just one example—similar databases can be designed and integrated into other projects based on different requirements.
+<br>
+This SQL file contains the database schema and sample data for an e-commerce project. It includes tables for **Users, Products, Orders and Payments**, making it suitable for any online shopping system.
+
+📂 **Database Structure**
 <br>
 The database consists of the following main tables:
 
-Users – Stores user details (ID, name, email, password, etc.).
+**Users** – Stores user details (ID, name, email, password, etc.).
 <br>
-Products – Stores product information (ID, name, price, stock, category, etc.).
+**Products** – Stores product information (ID, name, price, stock, category, etc.).
 <br>
-Orders – Records customer orders with order status and timestamps.
+**Orders** – Records customer orders with order status and timestamps.
 <br>
-Payments – Manages transactions and payment details.
+**Payments** – Manages transactions and payment details.
 <br><br>
 
-🔧 How to Use
+🔧 **How to Use**
 <br>
-✅ Install MySQL Server (if not installed).
+1. Install MySQL Server (if not installed).
    <br>
-✅ Open MySQL Workbench (or any SQL tool).
-✅ Create a new database:
+2. Open MySQL Workbench (or any SQL tool).
+3. Create a new database:
   CREATE DATABASE ecommerce; <br>
-✅ Select the new database:
+4. Select the new database:
      USE ecommerce;
 
-✅ Create Tables:
+5. Create Tables:
   create tables for Users, Products, Orders, Payments, etc.(Refer to the provided code)
 
-✅ Insert Sample Data
+6. Insert Sample Data
   Now, insert some records into the tables(Refer code)
 
-✅ Fetch and Test Data
+7. Fetch and Test Data
   Run these queries to test your database:
 <br><br>
 
@@ -45,4 +50,4 @@ Payments – Manages transactions and payment details.
 ✅ Check pending payments: (Refer code)
   <br>
 
-✅ Save and Submit with .sql extension
+8. Save and Submit with .sql extension
